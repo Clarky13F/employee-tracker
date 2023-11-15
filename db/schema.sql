@@ -1,3 +1,7 @@
+DROP DATABASE IF EXISTS tracker;
+CREATE DATABASE tracker;
+USE tracker;
+
 CREATE TABLE departments (
     id INT AUTO_INCREMENT PRIMARY KEY,
     name VARCHAR(50) NOT NULL
